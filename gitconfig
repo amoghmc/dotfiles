@@ -1,0 +1,22 @@
+[user]
+	email = amoghmc@github.com
+	name = amoghmc
+[alias]
+graph = log --all --graph --decorate --oneline
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	unstage = reset HEAD --
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = input
+[includeIf "gitdir:~/Linux_Kernel_Workspace/"]
+  path = .gitconfig-linux_kernel_workspace
+[oh-my-zsh]
+	hide-status = 1
+	hide-dirty = 1

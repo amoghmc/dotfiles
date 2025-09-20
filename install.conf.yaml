@@ -1,0 +1,15 @@
+- defaults:
+    link:
+        create: true
+        force: true
+- clean: ['~']
+
+- link:
+    ~/.profile: profile
+    ~/.bashrc: bashrc
+    ~/.bash_logout: bash_logout
+    ~/.gitconfig: gitconfig
+    ~/.tmux.conf: tmux.conf
+    ~/.vimrc: vimrc
+    ~/.config/fish/config.fish: fish
+    ~/.zshrc: zshrc
